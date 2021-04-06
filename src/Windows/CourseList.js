@@ -7,7 +7,7 @@ class CourseList extends React.Component{
     render(){
         return(
             <ul>
-                <li><Link to="/details">CSC 10300 - Introduction To Computer Science</Link></li>
+                <Link to="/more">CSC 10300 - Introduction To Computer Science</Link>
             </ul>
             //
             //    <div>

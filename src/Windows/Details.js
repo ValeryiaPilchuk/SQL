@@ -15,11 +15,7 @@ class Details extends React.Component{
                 <br/>
                 Prerequisits: None
                 <br/>
-                Meeting Date and Time: Mon/Wed 11:00 - 12:30
-                <br/>
                 Related Courses: idk
-                <br/>
-                Meeting Date and Time: Mon/Wed 11:00 - 12:30
                 <br/>
                 Link to Syllabus Page
             </div>
