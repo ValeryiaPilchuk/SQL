@@ -1,0 +1,13 @@
+ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 20px;
+  }
+  
+  li2 {
+    display: inline-block;
+    margin: 20px;
+  }
+  

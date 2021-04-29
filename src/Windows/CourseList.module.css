@@ -1,5 +1,14 @@
-.button{
-    color:darkslategray;
-    background-color:gainsboro;
-    margin: 10px;
-}
+ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .button{
+      color:darkslategray;
+      background-color:gainsboro;
+      margin: 10px;
+  }

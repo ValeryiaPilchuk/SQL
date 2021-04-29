@@ -1,13 +1,14 @@
 import { render } from "@testing-library/react";
 import React from "react";
-import style from "./CourseList.module.css";
+import styles from "./CourseList.module.css";
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 class CourseList extends React.Component{
 
     render(){
         return(
-            <ul>
-                <Link to="/more">CSC 10300 - Introduction To Computer Science</Link>
+            <ul style = {styles.ul}>
+                <li><Link to="/more">CSC 10300 - Introduction To Computer Science</Link></li>
+                <li><Link to="/more">CSC 10300 - Introduction To Computer Science</Link></li>
             </ul>
             //
             //    <div>
@@ -21,7 +22,7 @@ class CourseList extends React.Component{
             //        CSC 10400 - Discrete Mathematics
             //    </button>
             //</div>
-        
+
         );
 
     }
